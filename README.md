@@ -1,4 +1,6 @@
 Carpark Taxi Service
+
+[![Build Status](https://travis-ci.org/comispan/carpark-taxi.svg?branch=master)](https://travis-ci.org/comispan/carpark-taxi)
 ========================
 
 This project provides carpark availability and taxi location services to users via REST API calls. [Swagger documentation]() is available.
