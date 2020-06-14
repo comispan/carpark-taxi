@@ -2,7 +2,11 @@ language: java
 
 jdk:
   - oraclejdk9
-    
-branches:
-  only:
-    - master
+
+sudo: true
+
+# cache the build tool's caches
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.gradle
