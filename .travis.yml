@@ -6,9 +6,3 @@ jdk:
 branches:
   only:
     - master
-    
-# cache the build tool's caches
-cache:
-  directories:
-    - $HOME/.m2
-    - $HOME/.gradle
