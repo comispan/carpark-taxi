@@ -1,10 +1,8 @@
 language: java
-
+dist: bionic
 jdk:
-  - oraclejdk9
-
+  - oraclejdk8
 sudo: true
-
 # cache the build tool's caches
 cache:
   directories:
