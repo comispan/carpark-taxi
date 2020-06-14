@@ -1,12 +1,12 @@
 language: java
 
 jdk:
-  - oraclejdk8
+  - oraclejdk9
     
 branches:
   only:
     - master
-    -
+    
 # cache the build tool's caches
 cache:
   directories:
